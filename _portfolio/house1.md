@@ -16,7 +16,7 @@ hello this is house one hello this is house one hello this is house one hello th
 ![Image of a house](assets/images/portfolio/1.png)
 
 
-<div class="row pt-3 ">
+<div class="row pt-3 align-items-end">
     <div class="col-lg-6">
         <img src="{{site.baseurl}}/assets/images/portfolio/1.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
     </div>
