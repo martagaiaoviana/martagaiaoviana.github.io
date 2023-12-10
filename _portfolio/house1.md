@@ -12,4 +12,5 @@ hello this is house one hello this is house one hello this is house one hello th
 
 ### More pictures
 
-![Image of a house](/assets/images/1.png)
+![Image of a house]({{site.baseurl}}/assets/images/portfolio/1.png)
+![Image of a house](assets/images/portfolio/1.png)
