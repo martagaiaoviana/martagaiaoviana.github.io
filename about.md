@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Marta Miranda Maçães Viana
-subtitle: Architect at Pedro Ferreira Architecture Studio.
+subtitle: Architect at Pedro Ferreira Architecture Studio
 permalink: /about/
 ---
 
