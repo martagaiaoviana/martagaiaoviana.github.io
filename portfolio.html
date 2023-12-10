@@ -1,0 +1,43 @@
+---
+layout: page
+title: Portfolio
+permalink: /portfolio/
+---
+
+<div class="portfolio">
+    <div class="row row-cols-1 row-cols-xl-2 g-4 align-items-end">
+        {% for post in site.portfolio %}
+        <div class="col">
+            <div class="lc-block">
+                <a href="{{ post.url | relative_url }}">
+                    <img src="{{site.baseurl}}/assets/images/{{post.image}}" class="img-fluid" style="object-fit: contain;" alt="{{ post.title }}">
+                </a>
+            </div>
+            <div class="lc-block">
+                <span><strong>{{ post.title }}</strong></span>
+                {% if post.subtitle %}
+                <p>{{ post.subtitle }}</p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- <div class="portfolio">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        {% for post in site.portfolio %}
+        <div class="col">
+            <div class="card">
+                <a href="{{ post.url | relative_url }}">
+                    <img src="{{site.baseurl}}/assets/images/{{post.image}}" class="card-img-top" alt="...">
+                </a>
+              <div class="card-body">
+                <span class="card-title"><strong>{{ post.title }}</strong></span>
+                <p class="card-text">{{ post.subtitle }}</p>
+              </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div> -->

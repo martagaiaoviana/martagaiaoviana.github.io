@@ -1,0 +1,128 @@
+table {
+  @extend .table;
+  @extend .table-striped;
+}
+
+blockquote {
+  @extend .blockquote;
+}
+
+img {
+  @extend .img-fluid;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+}
+
+span.navbar-name {
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.archive-year {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.archive-date {
+  float: right;
+  margin-left: 1rem;
+}
+
+.archive-item {
+  margin-bottom: 0.5rem;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-icons {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.footer-icon-links {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer-icon-links:hover,
+.footer-icon-links:focus {
+  text-decoration: none;
+  color: #212529;
+}
+
+.archive-title {
+  color: #212529;
+  text-decoration: none;
+}
+
+.highlight {
+  background-color: #272822;
+}
+
+pre.highlight {
+  padding: 1rem;
+}
+
+.dark-avatar {
+  display: none !important;
+}
+
+.light-avatar,
+.dark-avatar {
+  margin-right: 0.25rem !important;
+}
+
+.carousel-item img {
+  // width: 100%;
+  // height: auto;
+  // max-height: 80vh;
+  margin: 0 auto; /* this will align the image to center. */
+  width: auto; /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+  object-fit: contain;
+}
+
+.carousel-control-next-icon,
+      .carousel-control-prev-icon {
+        filter: drop-shadow(0px 0px 3px rgba(255, 255, 255, 0.915));
+        // filter: invert(100%);
+        // -webkit-text-stroke: 1px black; /* For WebKit browsers */
+        // text-stroke: 1px black; /* Standard */
+      }
+
+// .carousel-caption {
+//   text-shadow: 0px 0px 4px #ffffff;
+// }
+// a {
+//   color: rgb(58, 58, 58);
+// }
+
+// @media (prefers-color-scheme: dark) {
+//   .footer-icon-links {
+//     text-decoration: none;
+//     color: #e1e1e1;
+//   }
+
+//   .footer-icon-links:hover,
+//   .footer-icon-links:focus {
+//     text-decoration: none;
+//     color: #e1e1e1;
+//   }
+
+//   .archive-title {
+//     color: #e1e1e1;
+//   }
+
+//   .light-avatar {
+//     display: none !important;
+//   }
+//   .dark-avatar {
+//     display: inline-block !important;
+//   }
+// }
