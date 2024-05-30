@@ -16,6 +16,22 @@
     />
     <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" />
     <!-- Meta Theme Color is also supported on Safari and Chrome -->
+
+    <!-- Font -->
+    <style>
+      @font-face {
+          font-family: 'geographregular';
+          src: url("{{ '/assets/css/fonts/geograph-regular-webfont.woff2' | relative_url }}") format('woff2'),
+               url("{{ '/assets/css/fonts/geograph-regular-webfont.woff' | relative_url }}") format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
+  
+      body {
+          font-family: 'geographregular', fallback, sans-serif;
+      }
+    </style>
+
     <meta
       name="theme-color"
       content="#eeeeee"
