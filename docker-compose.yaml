@@ -1,0 +1,8 @@
+version: '3'
+services:
+  jekyll:
+    image: jekyll/jekyll
+    volumes:
+      - .:/srv/jekyll
+    network_mode: host
+    command: jekyll serve --livereload
