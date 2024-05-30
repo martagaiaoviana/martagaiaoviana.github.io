@@ -28,13 +28,13 @@ permalink: /about/
 ##### Architecture
 <hr/>
 
-**​February 2024 - Present.** Architect at Horizonte Architecture, Porto, Portugal
+**​February 2024 - Present** Architect at Horizonte Architecture, Porto, Portugal
 
-**​August 2022 - January 2024.** Architect at Pedro Ferreira Architecture Studio, Braga, Portugal
+**​August 2022 - January 2024** Architect at Pedro Ferreira Architecture Studio, Braga, Portugal
 
-**April 2023.** Honorable Mention in the International Competition "[Wildlife Pavilions](https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/)"
+**April 2023** Honorable Mention in the International Competition "[Wildlife Pavilions](https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/)"
 
-**January 2021 - May 2022.**  Researcher: 1 to 1 Scale and Architecture Disclosure 
+**January 2021 - May 2022**  Researcher: 1 to 1 Scale and Architecture Disclosure 
 Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610)
 
 <br/>
@@ -42,32 +42,32 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 ##### Politics & Volunteering
 <hr/>
 
-**​April 2023 - Present.** Member of the Esposende Political Commitee of PSD, Braga, Portugal
+**​April 2023 - Present** Member of the Esposende Political Commitee of PSD, Braga, Portugal
 
 
-**February 2024 - Present.** Vice President of the Youth Political Party JSD in Esposende, Braga, Portugal
+**February 2024 - Present** Vice President of the Youth Political Party JSD in Esposende, Braga, Portugal
 
 
-**January 2016 - February 2024.** Member of the Youth Political Party JSD in Esposende, Braga, Portugal
+**January 2016 - February 2024** Member of the Youth Political Party JSD in Esposende, Braga, Portugal
 
 
-**January 2022 - December 2023.** Member VOU University Volunteer, Creative Department, Porto, Portugal
+**January 2022 - December 2023** Member VOU University Volunteer, Creative Department, Porto, Portugal
 
 
-**January 2022.** Volunteer at Missão País 22, Monitoring Primary School in Seia, Guarda, Portugal
+**January 2022** Volunteer at Missão País 22, Monitoring Primary School in Seia, Guarda, Portugal
 
 
-**January 2019 - January 2020.** Member of the Student Association in the Sports Department, Faculty of Architecture of the University of Porto, Portugal
+**January 2019 - January 2020** Member of the Student Association in the Sports Department, Faculty of Architecture of the University of Porto, Portugal
 
-**September 2018.** Volunteer at Just a Change Association, Porto, Portugal
+**September 2018** Volunteer at Just a Change Association, Porto, Portugal
 
-**September 2018 - December 2018.** Social Monitoring Project at Nossa Senhora do Rosário School, Porto, Portugal
+**September 2018 - December 2018** Social Monitoring Project at Nossa Senhora do Rosário School, Porto, Portugal
 
-**July 2017.** Volunteer at Open House Porto, Portugal
+**July 2017** Volunteer at Open House Porto, Portugal
 
-**September 2015 - September 2016.** Participation in the Mentoring Project at Henrique Medina High School
+**September 2015 - September 2016** Participation in the Mentoring Project at Henrique Medina High School
 
-**August 2015.** Volunteer at "Agosto em Lazer", n.º 5, integrated in the Youth Pastoral Activities of Irmãos S. João de Deus, Health House of S. João de Deus, Barcelos, Braga, Portugal
+**August 2015** Volunteer at "Agosto em Lazer", n.º 5, integrated in the Youth Pastoral Activities of Irmãos S. João de Deus, Health House of S. João de Deus, Barcelos, Braga, Portugal
 
 <br/>
 
