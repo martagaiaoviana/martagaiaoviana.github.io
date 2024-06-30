@@ -28,13 +28,13 @@ permalink: /about/
 ##### Architecture
 <hr/>
 
-**​February 2024 | Present** Architect at Horizonte Architecture, Porto, Portugal
+**​February 2024 - Present** Architect at Horizonte Architecture, Porto, Portugal
 
-**​August 2022 | January 2024** Architect at Pedro Ferreira Architecture Studio, Braga, Portugal
+**​August 2022 - January 2024** Architect at Pedro Ferreira Architecture Studio, Braga, Portugal
 
 **April 2023** Honorable Mention in the International Competition "[Wildlife Pavilions](https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/)"
 
-**January 2021 | May 2022**  Researcher: 1 to 1 Scale and Architecture Disclosure 
+**January 2021 - May 2022**  Researcher: 1 to 1 Scale and Architecture Disclosure 
 Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610)
 
 <br/>
@@ -42,16 +42,16 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 ##### Politics & Volunteering
 <hr/>
 
-**​April 2023 | Present** Member of the Esposende Political Commitee of PSD, Braga, Portugal
+**​April 2023 - Present** Member of the Esposende Political Commitee of PSD, Braga, Portugal
 
 
-**February 2024 | Present** Vice President of the Youth Political Party JSD in Esposende, Braga, Portugal
+**February 2024 - Present** Vice President of the Youth Political Party JSD in Esposende, Braga, Portugal
 
 
-**January 2016 | February 2024** Member of the Youth Political Party JSD in Esposende, Braga, Portugal
+**January 2016 - February 2024** Member of the Youth Political Party JSD in Esposende, Braga, Portugal
 
 
-**January 2022 | December 2023** Member VOU University Volunteer, Creative Department, Porto, Portugal
+**January 2022 - December 2023** Member VOU University Volunteer, Creative Department, Porto, Portugal
 
 
 **January 2022** Volunteer at Missão País 22, Monitoring Primary School in Seia, Guarda, Portugal
