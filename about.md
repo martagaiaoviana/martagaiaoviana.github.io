@@ -5,6 +5,16 @@ subtitle: Architect
 permalink: /about/
 ---
 
+<style>
+  .hover-slide-right {
+    transition: transform 0.4s ease;
+  }
+
+  .hover-slide-right:hover {
+    transform: translateX(10px);
+  }
+</style>
+
 <div class="row pt-3 align-items-end"> 
   <div class="col-lg-7">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
@@ -14,7 +24,7 @@ permalink: /about/
   </div>
 
   <div class="col-lg-5 d-flex flex-column justify-content-end">
-    <div>
+    <div class="hover-slide-right">
       <h2 class="mb-0">About Me</h2>
       <p class="mb-0">
         I am an architect and researcher focused on the political, social, and spatial dimensions of living.
