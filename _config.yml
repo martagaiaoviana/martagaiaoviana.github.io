@@ -56,7 +56,7 @@ defaults:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: martamirandaviana@gmail.com
+  email: info@mrt-arch.com
   facebook:
   github: 
   instagram: martagaiaoviana
@@ -68,3 +68,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
