@@ -45,10 +45,10 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 **​April 2023 - Present** Member of the Esposende Political Commitee of PSD, Braga, Portugal
 
 
-**February 2024 - Present** Vice President of the Youth Political Party JSD in Esposende, Braga, Portugal
+**February 2024 - Present** Vice President of the Youth Political Party in Esposende, Braga, Portugal
 
 
-**January 2016 - February 2024** Member of the Youth Political Party JSD in Esposende, Braga, Portugal
+**January 2016 - February 2024** Member of the Youth Political Party in Esposende, Braga, Portugal
 
 
 **January 2022 - December 2023** Member VOU University Volunteer, Creative Department, Porto, Portugal
@@ -83,9 +83,7 @@ Master Thesis concluded with a score of 19 out of 20
 
 **2016 - 2022.** Professional Certification, Level C1 in English, Master School Porto
 
-
 **2016 - 2022.** Formation in ARCHICAD 22- Initiation to BIM, Level 2, Cláudio Lima, lda (Graphisoft Registered Consultant)
-
 
 **2016 - 2022.** Scientific - Humanistic Course of Visuals Arts
 Henrique Medina High School, Esposende (GPA: 19)
