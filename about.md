@@ -14,14 +14,14 @@ permalink: /about/
   </div>
 
   <div class="col-lg-5 d-flex flex-column justify-content-between">
-    <div>
-      <h2>About Me</h2>
-      <p>I am an architect and researcher focused on the political, social, and spatial dimensions of living.</p>
+    <div class="mb-0">
+      <h2 class="mb-0">About Me</h2>
+      <p class="mb-1">I am an architect and researcher focused on the political, social, and spatial dimensions of living.</p>
     </div>
 
-    <div class="mt-2"> <!-- Reduz o espaço vertical -->
-      <h2>Contact Information</h2> <!-- Iguala o tamanho do título -->
-      <p>
+    <div class="mt-0">
+      <h2 class="mb-0 mt-0">Contact Information</h2>
+      <p class="mt-1">
         For professional inquiries, feel free to contact me at: 
         <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
       </p> 
