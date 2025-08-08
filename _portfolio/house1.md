@@ -10,7 +10,7 @@ date: 1998-06-17
 hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one
 hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one hello this is house one
 
-### More pictures
+
 
 ![Image of a house]({{site.baseurl}}/assets/images/portfolio/2.png)
 ![Image of a house](assets/images/portfolio/2.png)
@@ -24,6 +24,7 @@ hello this is house one hello this is house one hello this is house one hello th
         <img src="{{site.baseurl}}/assets/images/portfolio/2.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
     </div>
 </div>
+
 
 
 
