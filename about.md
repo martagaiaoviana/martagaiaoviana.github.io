@@ -13,7 +13,6 @@ permalink: /about/
         <h2> About Me </h2>
         <p>I'm a curious soul, always eager to understand and learn from life. One of the things I love the most is the sea because it brings me peace and a profound sense of freedom, ideals that I endeavour to apply in my profession. Additionally, I take delight in exploring the creative realms of architecture, art, and classical music, firmly believing that the embrace of various art forms fosters our intellectual and social growth.</p>
         <p>I hold a deep affection for animals, cherish human connections, and find solace in smiles and warm hugs.</p>
-        <p><em>At heart, I'm a dreamer.</em></p> 
         <h4> Contact Information </h4>
         <p>
         For professional inquires, send me an email at: <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
@@ -42,7 +41,7 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 ##### Politics & Volunteering
 <hr/>
 
-**​April 2023 - Present** Member of the Esposende Political Commitee of PSD, Braga, Portugal
+**​April 2023 - Present** Member of the Esposende Political Commitee, Braga, Portugal
 
 
 **February 2024 - Present** Vice President of the Youth Political Party in Esposende, Braga, Portugal
