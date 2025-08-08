@@ -28,7 +28,7 @@ permalink: /about/
 ##### Architecture
 <hr/>
 
-**​February 2024 - Present** Architect at Horizonte Architecture, Porto, Portugal
+**​February 2024 - March 2025** Architect at Horizonte Architecture, Porto, Portugal
 
 **​August 2022 - January 2024** Architect at Pedro Ferreira Architecture Studio, Braga, Portugal
 
