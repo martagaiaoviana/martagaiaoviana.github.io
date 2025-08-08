@@ -16,7 +16,7 @@ permalink: /about/
 </style>
 
 <div class="row pt-3 align-items-end"> 
-  <!-- Coluna da imagem com classe identificadora -->
+  <!-- Coluna da imagem -->
   <div class="col-lg-7 image-hover-container">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
          class="img-fluid h-100" 
@@ -24,14 +24,16 @@ permalink: /about/
          alt="Portrait of Marta on the beach">
   </div>
 
-  <!-- Coluna do texto que reage ao hover na imagem -->
+  <!-- Coluna do texto -->
   <div class="col-lg-5 d-flex flex-column justify-content-end text-hover-container">
     <div class="text-slide-container">
       <h2 class="mb-0">About Me</h2>
       <p class="mb-0">
         I am an architect and researcher focused on the political, social, and spatial dimensions of living.
       </p>
-      <h2 class="mt-0 mb-0">Contact Information</h2>
+
+      <!-- Aqui aumentamos o espaço com mt-5 -->
+      <h2 class="mt-5 mb-0">Contact Information</h2>
       <p class="mt-1">
         For professional inquiries, feel free to contact me at: 
         <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
