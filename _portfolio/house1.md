@@ -1,6 +1,6 @@
 ---
-title: House by the beach
-subtitle: House built for Andreu by Marta in Valencia, Spain
+title: “Wildlife Pavilions” 
+subtitle: Honorable Mention in the International Competition TerraViva, 2023
 image: portfolio/1.png
 featured_home: true
 type: drawing
@@ -24,3 +24,4 @@ hello this is house one hello this is house one hello this is house one hello th
         <img src="{{site.baseurl}}/assets/images/portfolio/2.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
     </div>
 </div>
+
