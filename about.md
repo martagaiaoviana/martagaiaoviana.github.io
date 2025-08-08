@@ -85,6 +85,8 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 ##### Education & Training
 <hr/>
 
+**2024** REVIT for Architecture, Academia Luso Cuanza, Autodesk Certificated
+
 **2016 - 2022.** Integrated Master’s in Architecture Faculty of Architecture of the University of Porto (GPA: 17)
 Master Thesis concluded with a score of 19 out of 20
 
