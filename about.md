@@ -10,21 +10,19 @@ permalink: /about/
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
          class="img-fluid h-100" 
          style="object-fit: contain;" 
-         alt="me on the beach">
+         alt="Portrait of Marta on the beach">
   </div>
-  
+
   <div class="col-lg-5 d-flex flex-column justify-content-between">
     <div>
       <h2>About Me</h2>
-      <p>I'm a curious soul, always eager to understand and learn from life. One of the things I love the most is the sea because it brings me peace and a profound sense of freedom, ideals that I endeavour to apply in my profession.</p>
-      <p>Additionally, I take delight in exploring the creative realms of architecture, art, and classical music, firmly believing that the embrace of various art forms fosters our intellectual and social growth.</p>
-      <p>I hold a deep affection for animals, cherish human connections, and find solace in smiles and warm hugs.</p>
+      <p>I am an architect and researcher focused on the political, social, and spatial dimensions of living.</p>
     </div>
-    
+
     <div>
       <h4>Contact Information</h4>
       <p>
-        For professional inquires, send me an email at: 
+        For professional inquiries, feel free to contact me at: 
         <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
       </p> 
     </div>
