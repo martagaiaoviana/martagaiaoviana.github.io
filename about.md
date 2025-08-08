@@ -5,7 +5,7 @@ subtitle: Architect
 permalink: /about/
 ---
 
-<div class="row pt-3 align-items-stretch"> 
+<div class="row pt-3 align-items-end"> 
   <div class="col-lg-7">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
          class="img-fluid h-100" 
@@ -13,16 +13,13 @@ permalink: /about/
          alt="Portrait of Marta on the beach">
   </div>
 
-  <div class="col-lg-5 d-flex flex-column justify-content-between">
+  <div class="col-lg-5 d-flex flex-column justify-content-end">
     <div>
       <h2 class="mb-0">About Me</h2>
-      <p class="mb-1">
+      <p class="mb-0">
         I am an architect and researcher focused on the political, social, and spatial dimensions of living.
       </p>
-
-      <br> <!-- Força uma quebra de linha (sem espaço extra) -->
-
-      <h2 class="mb-0">Contact Information</h2>
+      <h2 class="mt-0 mb-0">Contact Information</h2>
       <p class="mt-1">
         For professional inquiries, feel free to contact me at: 
         <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
@@ -85,20 +82,20 @@ Scientific Article for UOU Jornal: [orcid](https://orcid.org/0000-0002-9994-7610
 ##### Education & Training
 <hr/>
 
-**2024** REVIT for Architecture, Academia Luso Cuanza, Autodesk Certificated
+**2024**         REVIT for Architecture, Academia Luso Cuanza, Autodesk Certificated
 
-**2016 - 2022.** Integrated Master’s in Architecture Faculty of Architecture of the University of Porto (GPA: 17)
+**2016 - 2022**  Integrated Master’s in Architecture Faculty of Architecture of the University of Porto (GPA: 17)
 Master Thesis concluded with a score of 19 out of 20
 
-**2016 - 2022.** Participation in the ERASMUS + Programme Exchange Student at KTH Royal Institute of Technology
+**2020 - 2021**  Participation in the ERASMUS + Programme Exchange Student at KTH Royal Institute of Technology
 
-**2016 - 2022.** Swedish course for beginners Level A1, KTH Royal Institute of Technology
+**2020 - 2021**  Swedish course for beginners Level A1, KTH Royal Institute of Technology
 
-**2016 - 2022.** Professional Certification, Level C1 in English, Master School Porto
+**2020**         Professional Certification, Level C1 in English, Master School Porto
 
-**2016 - 2022.** Formation in ARCHICAD 22- Initiation to BIM, Level 2, Cláudio Lima, lda (Graphisoft Registered Consultant)
+**2018**         Formation in ARCHICAD 22- Initiation to BIM, Level 2, Cláudio Lima, lda (Graphisoft Registered Consultant)
 
-**2016 - 2022.** Scientific - Humanistic Course of Visuals Arts
+**2013 - 2016**  Scientific - Humanistic Course of Visuals Arts
 Henrique Medina High School, Esposende (GPA: 19)
 
-**2016 - 2022.** Course in Organ, Classic Format, Esposende
+**2007 - 2012**  Course in Organ, Classic Format, Esposende
