@@ -5,7 +5,7 @@ subtitle: Architect
 permalink: /about/
 ---
 
-<div class="row pt-3 align-items-stretch">
+<div class="row pt-3 align-items-stretch"> 
   <div class="col-lg-7">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
          class="img-fluid h-100" 
@@ -15,12 +15,12 @@ permalink: /about/
 
   <div class="col-lg-5 d-flex flex-column justify-content-between">
     <div>
-      <h4>About Me</h2>
+      <h2>About Me</h2>
       <p>I am an architect and researcher focused on the political, social, and spatial dimensions of living.</p>
     </div>
 
-    <div>
-      <h4>Contact Information</h4>
+    <div class="mt-2"> <!-- Reduz o espaço vertical -->
+      <h2>Contact Information</h2> <!-- Iguala o tamanho do título -->
       <p>
         For professional inquiries, feel free to contact me at: 
         <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
