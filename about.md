@@ -31,42 +31,43 @@ permalink: /about/
 
 <br/>
 
-### Professional Experience
+<section class="my-4">
+  <h3>Professional Experience</h3>
 
-##### Architecture
-<hr/>
+  <h5 class="mt-4">Architecture</h5>
+  <hr>
 
-**2024 – 2025**  Architect at Horizonte Architecture, Porto, Portugal  
-**2022 – 2024**  Architect at Pedro Ferreira Architecture Studio, Braga, Portugal  
-**2023**         Honorable Mention in the International Competition “[Wildlife Pavilions](https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/)”  
-**2021 – 2022**  Researcher: 1 to 1 Scale and Architecture Disclosure — Scientific Article for UOU Journal: [orcid](https://orcid.org/0000-0002-9994-7610)
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2024 – 2025</div>
+    <div>Architect at Horizonte Architecture, Porto, Portugal</div>
+  </div>
 
-<br/>
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2024</div>
+    <div>Member of the Portuguese Architecture Collegiate, n.º 29360</div>
+  </div>
 
-##### Politics & Volunteering
-<hr/>
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2022 – 2024</div>
+    <div>Architect at Pedro Ferreira Architecture Studio, Braga, Portugal</div>
+  </div>
 
-**2023 – Present**  Member of the Esposende Political Committee, Braga, Portugal  
-**2024 – Present**  Vice President of the Youth Political Party in Esposende, Braga, Portugal  
-**2016 – 2024**     Member of the Youth Political Party in Esposende, Braga, Portugal  
-**2022 – 2023**     Member of VOU University Volunteer, Creative Department, Porto, Portugal  
-**2022**            Volunteer at Missão País 22, Monitoring Primary School in Seia, Guarda, Portugal  
-**2019 – 2020**     Member of the Student Association in the Sports Department, FAUP, Portugal  
-**2018**            Volunteer at Just a Change Association, Porto, Portugal  
-**2018**            Social Monitoring Project at Nossa Senhora do Rosário School, Porto, Portugal  
-**2017**            Volunteer at Open House Porto, Portugal  
-**2015 – 2016**     Participant in the Mentoring Project at Henrique Medina High School  
-**2015**            Volunteer at "Agosto em Lazer", no. 5, Youth Pastoral Activities of Irmãos S. João de Deus, Barcelos, Braga, Portugal
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2023</div>
+    <div>Honorable Mention in the International Competition 
+      <a href="https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/" target="_blank">“Wildlife Pavilions”</a>
+    </div>
+  </div>
 
-<br/>
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2021 – 2024</div>
+    <div>Freelancer Illustrator, Creation_byMarta</div>
+  </div>
 
-##### Education & Training
-<hr/>
-
-**2024**           REVIT for Architecture, Academia Luso Cuanza, Autodesk Certified  
-**2016 – 2022**    Integrated Master’s in Architecture, FAUP (GPA: 17) – Thesis: 19/20  
-**2020 – 2021**    ERASMUS+ Programme, KTH Royal Institute of Technology — also Swedish A1  
-**2020**           English Certification, Level C1, Master School Porto  
-**2018**           ARCHICAD 22 Training – Introduction to BIM, Cláudio Lima, Lda  
-**2013 – 2016**    Visual Arts Course, Henrique Medina High School, Esposende (GPA: 19)  
-**2007 – 2012**    Organ Course, Classic Format, Esposende
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 140px;">2021 – 2022</div>
+    <div>Researcher: 1 to 1 Scale and Architecture Disclosure — Scientific Article for UOU Journal: 
+      <a href="https://orcid.org/0000-0002-9994-7610" target="_blank">orcid</a>
+    </div>
+  </div>
+</section>
