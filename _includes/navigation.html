@@ -11,7 +11,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto">
+      <ul class="navbar-nav position-absolute top-50 start-50 translate-middle d-none d-lg-flex flex-row">
+        {% for item in site.data.navigation %}
+          <li class="nav-item">
+            <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <ul class="navbar-nav d-lg-none">
         {% for item in site.data.navigation %}
           <li class="nav-item">
             <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
@@ -19,7 +26,7 @@
         {% endfor %}
       </ul>
       <hr class="d-md-none my-2">
-      <div class="d-flex align-items-center">
+      <div class="d-flex align-items-center ms-auto">
         {% include svg_icons.html %}
       </div>
     </div>
