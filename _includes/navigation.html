@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-md navbar-light">
   <!-- <div class="container-fluid"> -->
     <a class="navbar-brand p-0 me-4" href="{{ '/' | relative_url }}">
     {% if site.lightavatar or site.darkavatar %}
@@ -11,14 +11,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav position-absolute top-50 start-50 translate-middle d-none d-lg-flex flex-row">
+      <ul class="navbar-nav position-absolute top-50 start-50 translate-middle d-none d-md-flex flex-row">
         {% for item in site.data.navigation %}
-          <li class="nav-item">
+          <li class="nav-item mx-3">
             <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
           </li>
         {% endfor %}
       </ul>
-      <ul class="navbar-nav d-lg-none">
+      <ul class="navbar-nav d-md-none">
         {% for item in site.data.navigation %}
           <li class="nav-item">
             <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
