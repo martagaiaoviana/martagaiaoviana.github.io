@@ -31,10 +31,10 @@ permalink: /about/
 
 <br/>
 
-<section class="my-4"> 
-  <h3>Professional Experience</h3>
+<section class="my-4">
+  <h3 class="fw-bold">Professional Experience</h3>
 
-  <h5 class="mt-4">Architecture</h5>
+  <h5 class="mt-5 mb-4 lh-base">Architecture</h5>
 
   <div class="mb-3 d-flex">
     <div class="fw-bold me-3" style="min-width: 150px;">2024 – 2025</div>
@@ -53,7 +53,8 @@ permalink: /about/
 
   <div class="mb-3 d-flex">
     <div class="fw-bold me-3" style="min-width: 150px;">2023</div>
-    <div>Honorable Mention in the International Competition 
+    <div>
+      Honorable Mention in the International Competition 
       <a href="https://www.terravivacompetitions.com/wildlife-pavilions-competition-results-2023/" target="_blank">“Wildlife Pavilions”</a>
     </div>
   </div>
@@ -65,13 +66,13 @@ permalink: /about/
 
   <div class="mb-3 d-flex">
     <div class="fw-bold me-3" style="min-width: 150px;">2021 – 2022</div>
-    <div>Researcher: 1 to 1 Scale and Architecture Disclosure — Scientific Article for UOU Journal: 
+    <div>
+      Researcher: 1 to 1 Scale and Architecture Disclosure — Scientific Article for UOU Journal: 
       <a href="https://orcid.org/0000-0002-9994-7610" target="_blank">orcid</a>
     </div>
   </div>
 
-  <h5 class="mt-5">Politics & Volunteering</h5>
-  <hr>
+  <h5 class="mt-5 mb-4 lh-base">Politics & Volunteering</h5>
 
   <div class="mb-3 d-flex">
     <div class="fw-bold me-3" style="min-width: 150px;">2023 – Present</div>
@@ -128,8 +129,7 @@ permalink: /about/
     <div>Volunteer at "Agosto em Lazer", no. 5, Youth Pastoral Activities of Irmãos S. João de Deus, Barcelos, Braga, Portugal</div>
   </div>
 
-  <h5 class="mt-5">Education & Training</h5>
-  <hr>
+  <h5 class="mt-5 mb-4 lh-base">Education & Training</h5>
 
   <div class="mb-3 d-flex">
     <div class="fw-bold me-3" style="min-width: 150px;">2024</div>
@@ -166,3 +166,4 @@ permalink: /about/
     <div>Organ Course, Classic Format, Esposende</div>
   </div>
 </section>
+
