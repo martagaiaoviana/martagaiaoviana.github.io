@@ -15,7 +15,7 @@ permalink: /about/
 
   <div class="col-lg-5 d-flex flex-column justify-content-between">
     <div>
-      <h2>About Me</h2>
+      <h4>About Me</h2>
       <p>I am an architect and researcher focused on the political, social, and spatial dimensions of living.</p>
     </div>
 
