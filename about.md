@@ -6,25 +6,27 @@ permalink: /about/
 ---
 
 <style>
-  .hover-slide-right {
+  .text-slide-container {
     transition: transform 0.4s ease;
   }
 
-  .hover-slide-right:hover {
+  .image-hover-container:hover + .text-hover-container .text-slide-container {
     transform: translateX(10px);
   }
 </style>
 
 <div class="row pt-3 align-items-end"> 
-  <div class="col-lg-7">
+  <!-- Coluna da imagem com classe identificadora -->
+  <div class="col-lg-7 image-hover-container">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp" 
          class="img-fluid h-100" 
          style="object-fit: contain;" 
          alt="Portrait of Marta on the beach">
   </div>
 
-  <div class="col-lg-5 d-flex flex-column justify-content-end">
-    <div class="hover-slide-right">
+  <!-- Coluna do texto que reage ao hover na imagem -->
+  <div class="col-lg-5 d-flex flex-column justify-content-end text-hover-container">
+    <div class="text-slide-container">
       <h2 class="mb-0">About Me</h2>
       <p class="mb-0">
         I am an architect and researcher focused on the political, social, and spatial dimensions of living.
@@ -37,6 +39,7 @@ permalink: /about/
     </div>
   </div>
 </div>
+
 
 
 <br/>
