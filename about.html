@@ -6,23 +6,23 @@ permalink: /about/
 ---
 
 <style>
-  .text-slide-container, .zoom-image-container {
+  .fade-in-on-scroll {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
-  .visible .text-slide-container {
+  .fade-in-on-scroll.visible {
     opacity: 1;
     transform: translateY(0);
   }
 
-  .zoom-image-container img {
+  .zoom-on-scroll img {
     transition: transform 1s ease;
     transform: scale(1);
   }
 
-  .visible.zoom-image-container img {
+  .zoom-on-scroll.visible img {
     transform: scale(1.05);
   }
 </style>
@@ -35,26 +35,26 @@ permalink: /about/
           entry.target.classList.add("visible");
         }
       });
-    }, { threshold: 0.1 });
+    }, { threshold: 0.2 });
 
-    document.querySelectorAll('.text-hover-container, .zoom-image-container').forEach(el => {
+    document.querySelectorAll('.fade-in-on-scroll, .zoom-on-scroll').forEach(el => {
       observer.observe(el);
     });
   });
 </script>
 
 <div class="row pt-3 align-items-end">
-  <!-- Coluna da imagem com efeito de zoom -->
-  <div class="col-lg-7 zoom-image-container">
+  <!-- Image column with zoom effect -->
+  <div class="col-lg-7 zoom-on-scroll">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp"
          class="img-fluid h-100"
          style="object-fit: contain;"
          alt="Portrait of Marta on the beach">
   </div>
 
-  <!-- Coluna do texto com efeito de fade/slide -->
-  <div class="col-lg-5 d-flex flex-column justify-content-end text-hover-container">
-    <div class="text-slide-container">
+  <!-- Text column with fade/slide-in effect -->
+  <div class="col-lg-5 d-flex flex-column justify-content-end fade-in-on-scroll">
+    <div>
       <h2 class="mb-0">About Me</h2>
       <p class="mb-0">
         I am an architect and researcher focused on the political, social, and spatial dimensions of living.
@@ -69,7 +69,8 @@ permalink: /about/
   </div>
 </div>
 
-<div class="mt-5 bio-fade-in">
+<!-- Abstract section with smooth scroll fade-in -->
+<div class="mt-5 fade-in-on-scroll">
   <p>Marta Miranda Maçães Viana holds a Master’s degree in Architecture from the Architecture Faculty of the University of Porto (FAUP), completed in 2022 with a final average grade of 17 out of 20. Her Master’s thesis, entitled “The Potential of the 1:1 Scale: Devices for Experimentation and Communication in Architecture”, was awarded a final grade of 19. The thesis explores the real scale as a tool for experimentation, communication, and teaching in architecture, analyzing ephemeral devices—such as exhibitions, installations, and biennials—as both container and content.</p>
 
   <p>Part of the research was developed within the project Petites Folies: Other Landscapes over Douro, integrated into the Porto Design Biennale 2021, curated by Alastair Fuad-Luke. This satellite project enabled the construction of six full-scale installations, exploring the relationship between architecture, design, and the city. Techniques of collective design, self-construction, and public space appropriation were employed, promoting critical reflection on civic participation and the role of ephemeral architecture in the activation and communication of urban space.</p>
@@ -82,7 +83,6 @@ permalink: /about/
 
   <p>Beyond academic and professional commitments, Marta has maintained active involvement in student associations, volunteering, and youth civic engagement. At FAUP, she was a member of the Students’ Association, where she led the sports division (2019-2020). She also joined the university volunteer organization, namely VOU (2022-2023), and participated in social programs such as Missão País (2021) and Just a Change (2018). This ongoing civic and political involvement has allowed her to engage closely with the structural challenges affecting her generation.</p>
 </div>
-
 
 
 <br/>
@@ -133,26 +133,30 @@ permalink: /about/
     </div>
   </div>
 
-  <h3 class="fw-bold mt-5">Publications</h3>
+  <h5 class="mt-5 mb-4 lh-base">Publications</h5>
 
-  <div class="mb-4">
-    <h5 class="mb-2">Journal Article</h5>
-    <p class="mb-1">
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 150px;">2021</div>
+    <div>
       Neiva, Ana; Viana, Marta; Gomes, João Nuno. 
       "<a href="https://doi.org/10.14198/uou.2021.2.08" target="_blank">“Petites Folies” – Other Landscapes over Douro</a>."
-      <em>UOU Scientific Journal</em>, No. 2 (2021).
-    </p>
-    <small>Published • DOI: <a href="https://doi.org/10.14198/uou.2021.2.08" target="_blank">10.14198/uou.2021.2.08</a></small>
+      <em>UOU Scientific Journal</em>, No. 2.
+      <br/>
+      <small>Published • DOI: <a href="https://doi.org/10.14198/uou.2021.2.08" target="_blank">10.14198/uou.2021.2.08</a></small>
+    </div>
   </div>
 
-  <div class="mb-4">
-    <h5 class="mb-2">Thesis / Dissertation</h5>
-    <p class="mb-1">
+  <div class="mb-3 d-flex">
+    <div class="fw-bold me-3" style="min-width: 150px;">2022</div>
+    <div>
       <em>"The Potential of the 1:1 Scale: Devices for Experimentation and Communication in Architecture."</em><br/>
-      Master’s thesis, Faculty of Architecture, University of Porto, 2022.
-    </p>
-    <small>Available at: <a href="https://hdl.handle.net/10216/143091" target="_blank">https://hdl.handle.net/10216/143091</a></small>
+      Master’s thesis, Faculty of Architecture, University of Porto.
+      <br/>
+      <small>Available at: <a href="https://hdl.handle.net/10216/143091" target="_blank">https://hdl.handle.net/10216/143091</a></small>
+    </div>
   </div>
+</section>
+
 
   <h5 class="mt-5 mb-4 lh-base">Politics & Volunteering</h5>
 
