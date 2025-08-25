@@ -16,15 +16,56 @@ Regarding the architectural experience, the structures value a serene and coexis
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>
 
 <div class="row pt-3 align-items-end">
-  {% for i in (1..16) %}
-    <div class="col-lg-6 mb-3">
-      <img src="{{site.baseurl}}/assets/images/portfolio/P1_{{ i | prepend: '0' | slice: -2 }}.png"
-           class="img-fluid"
-           style="object-fit: contain;"
-           alt="Image P1_{{ i }}">
-    </div>
-  {% endfor %}
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_01.png" class="img-fluid" alt="Image P1_01.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_02.png" class="img-fluid" alt="Image P1_02.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_03.png" class="img-fluid" alt="Image P1_03.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_04.png" class="img-fluid" alt="Image P1_04.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_05.png" class="img-fluid" alt="Image P1_05.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_06.png" class="img-fluid" alt="Image P1_06.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_07.png" class="img-fluid" alt="Image P1_07.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_08.png" class="img-fluid" alt="Image P1_08.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_09.png" class="img-fluid" alt="Image P1_09.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_10.png" class="img-fluid" alt="Image P1_10.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_11.png" class="img-fluid" alt="Image P1_11.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_12.png" class="img-fluid" alt="Image P1_12.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_13.png" class="img-fluid" alt="Image P1_13.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_14.png" class="img-fluid" alt="Image P1_14.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_15.png" class="img-fluid" alt="Image P1_15.png">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_16.png" class="img-fluid" alt="Image P1_16.png">
+  </div>
 </div>
+
 
 
 
