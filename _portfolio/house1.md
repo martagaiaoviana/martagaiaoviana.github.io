@@ -15,30 +15,19 @@ Regarding the architectural experience, the structures value a serene and coexis
 
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>
 
-<!-- Bootstrap Carousel with 3 Portfolio Images -->
-<div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<!-- Display 3 Portfolio Images without carousel -->
+<div class="container my-5">
+  <div class="row g-4">
     {% assign images = "P1_000,P1_00A,P1_00B" | split: "," %}
     {% for image in images %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+    <div class="col-md-4">
       <img src="{{ '/assets/images/portfolio/' | append: image | append: '.png' | relative_url }}"
-           class="d-block w-100 img-fluid"
-           alt="Image {{ image }}">
+           class="img-fluid"
+           alt="Portfolio image {{ image }}">
     </div>
     {% endfor %}
   </div>
-
-  <!-- Carousel controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-
 
 
 
