@@ -1,7 +1,7 @@
 ---
 title: Wildlife Pavilions
 subtitle: Honorable Mention in the International Competition TerraViva, 2023
-image: portfolio/2.png
+image: portfolio/wildlife_pavilions/P1_01.png
 featured_home: true
 type: drawing
 date: 1998-06-17
