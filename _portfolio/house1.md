@@ -1,5 +1,5 @@
 ---
-title: "Wildlife Pavilions"
+title: Wildlife Pavilions
 subtitle: Honorable Mention in the International Competition TerraViva, 2023
 image: portfolio/2.png
 featured_home: true
@@ -25,6 +25,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     </div>
   {% endfor %}
 </div>
+
 
 
 
