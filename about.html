@@ -43,7 +43,7 @@ permalink: /about/
     padding-right: 0 !important;
   }
 
-  .justified p {
+  .justify-text p {
     text-align: justify;
   }
 </style>
@@ -64,17 +64,14 @@ permalink: /about/
   });
 </script>
 
-<!-- Image and text aligned on the left -->
 <div class="container-fluid px-0">
   <div class="row g-0 align-items-end">
-    <!-- Image column with zoom effect -->
-    <div class="col-lg-7 d-flex align-items-end zoom-on-scroll no-padding">
-      <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp"
+    <div class="col-lg-7 no-padding zoom-on-scroll">
+      <img src="{{ site.baseurl }}/assets/images/marta_on_the_beach.webp"
            class="img-fluid w-100"
            alt="Portrait of Marta on the beach">
     </div>
 
-    <!-- Text column with slide-in-from-right effect -->
     <div class="col-lg-5 d-flex flex-column justify-content-end slide-in-right">
       <div class="p-3">
         <h2 class="mb-0">About Me</h2>
