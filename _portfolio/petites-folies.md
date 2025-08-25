@@ -36,7 +36,7 @@ published: true
   <div class="carousel-inner">
     {% for img in imgs %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{{ '/assets/images/portfolio/' | append: img | append: '.png' | relative_url }}"
+        <img src="{{ '/assets/images/portfolio/petites_folies/' | append: img | append: '.png' | relative_url }}"
              class="d-block w-100 img-fluid"
              alt="Petites Folies {{ img }}">
       </div>

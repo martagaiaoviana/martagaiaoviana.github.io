@@ -21,7 +21,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     {% assign images = "P1_000,P1_00A,P1_00B" | split: "," %}
     {% for image in images %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ '/assets/images/portfolio/' | append: image | append: '.png' | relative_url }}"
+      <img src="{{ '/assets/images/portfolio/wildlife_pavilions/' | append: image | append: '.png' | relative_url }}"
            class="d-block w-100 img-fluid"
            alt="Portfolio image {{ image }}">
     </div>
