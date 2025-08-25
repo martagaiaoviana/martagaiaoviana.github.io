@@ -6,7 +6,6 @@ permalink: /about/
 ---
 
 <style>
-  /* Animações */
   .fade-in-on-scroll, .slide-in-right, .zoom-on-scroll {
     opacity: 0;
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -38,6 +37,11 @@ permalink: /about/
   .visible.zoom-on-scroll img {
     transform: scale(1.05);
   }
+
+  .no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 </style>
 
 <script>
@@ -56,18 +60,17 @@ permalink: /about/
   });
 </script>
 
-<!-- Container geral para alinhamento -->
-<div class="container px-0">
+<!-- Alinhamento perfeito à esquerda -->
+<div class="container-fluid px-0">
   <div class="row g-0 align-items-end">
-    <!-- Coluna da imagem com efeito de zoom -->
-    <div class="col-lg-7 zoom-on-scroll">
+    <!-- Imagem com efeito de zoom e sem margens -->
+    <div class="col-lg-7 zoom-on-scroll no-padding">
       <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp"
            class="img-fluid w-100"
-           style="object-fit: cover;"
            alt="Portrait of Marta on the beach">
     </div>
 
-    <!-- Coluna do texto com efeito slide-in -->
+    <!-- Texto com efeito de slide -->
     <div class="col-lg-5 d-flex flex-column justify-content-end slide-in-right">
       <div class="p-3">
         <h2 class="mb-0">About Me</h2>
@@ -99,6 +102,7 @@ permalink: /about/
 
   <p>Beyond academic and professional commitments, Marta has maintained active involvement in student associations, volunteering, and youth civic engagement. At FAUP, she was a member of the Students’ Association, where she led the sports division (2019-2020). She also joined the university volunteer organization, namely VOU (2022-2023), and participated in social programs such as Missão País (2021) and Just a Change (2018). This ongoing civic and political involvement has allowed her to engage closely with the structural challenges affecting her generation.</p>
 </div>
+
 
 
 <br/>
