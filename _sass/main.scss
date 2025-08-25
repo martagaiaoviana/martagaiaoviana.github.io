@@ -12,6 +12,13 @@ img {
   margin-bottom: 1rem;
 }
 
+// Global paragraph text justification
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .navbar {
   margin-bottom: 2rem;
   border-bottom: none; // Remove the existing border
