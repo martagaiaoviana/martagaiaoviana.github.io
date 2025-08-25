@@ -15,10 +15,10 @@ Regarding the architectural experience, the structures value a serene and coexis
 
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>
 
-<!-- Bootstrap Carousel with Portfolio Images -->
+<!-- Bootstrap Carousel with 3 Portfolio Images -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
-    {% assign images = "P1_000,P1_00A,P1_00B,P1_01,P1_02,P1_03,P1_04,P1_05,P1_06,P1_07,P1_08,P1_09,P1_10,P1_11,P1_12,P1_13,P1_14,P1_15" | split: "," %}
+    {% assign images = "P1_000,P1_00A,P1_00B" | split: "," %}
     {% for image in images %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
       <img src="{{ '/assets/images/portfolio/' | append: image | append: '.png' | relative_url }}"
