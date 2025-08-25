@@ -14,6 +14,19 @@ img {
 
 .navbar {
   margin-bottom: 2rem;
+  border-bottom: none; // Remove the existing border
+  position: relative;
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
 }
 
