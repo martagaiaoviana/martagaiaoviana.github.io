@@ -27,17 +27,36 @@ permalink: /about/
   }
 </style>
 
-<!-- PHOTO + SUBTITLE -->
+<!-- PHOTO with slide-to-right effect -->
 <div class="container-fluid px-0">
-  <div class="row g-0 align-items-end">
-    <div class="col-lg-7 no-padding">
+  <div class="row g-0 align-items-end overflow-hidden">
+    <div class="col-lg-7 no-padding slide-to-right">
       <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
            class="img-fluid w-100"
            alt="Portrait of Marta on the beach">
-      <p class="text-secondary mb-0 mt-2" style="text-align: left;">Architect</p>
     </div>
   </div>
 </div>
+
+<style>
+  /* Slide image to the right */
+  @keyframes slideRight {
+    from { transform: translateX(0); }
+    to   { transform: translateX(50px); } /* adjust value as needed */
+  }
+
+  .slide-to-right {
+    animation: slideRight 1.2s ease-out forwards;
+  }
+
+  /* Accessibility: disable motion for those who prefer reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .slide-to-right {
+      animation: none;
+      transform: none;
+    }
+  }
+</style>
 
 <!-- ABOUT ME -->
 <section class="my-5">
