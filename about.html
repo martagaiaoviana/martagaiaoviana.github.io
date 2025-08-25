@@ -1,3 +1,49 @@
+---
+layout: page
+title: Marta Miranda Maçães Viana
+subtitle: Architect
+permalink: /about/
+---
+
+<style>
+  .no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .justify-text p {
+    text-align: justify;
+  }
+</style>
+
+<!-- Image and About section -->
+<div class="container-fluid px-0">
+  <div class="row g-0 align-items-end">
+    <!-- Image aligned to left -->
+    <div class="col-lg-7 no-padding">
+      <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
+           class="img-fluid w-100"
+           alt="Portrait of Marta on the beach">
+    </div>
+
+    <!-- Text aligned to left -->
+    <div class="col-lg-5 d-flex flex-column justify-content-end">
+      <div class="p-3">
+        <h2 class="mb-0">About Me</h2>
+        <p class="mb-0">
+          I am an architect and researcher focused on the political, social, and spatial dimensions of living.
+        </p>
+
+        <h2 class="mt-5 mb-0">Contact Information</h2>
+        <p class="mt-1">
+          For professional inquiries, feel free to contact me at:
+          <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Abstract aligned to the left with the image -->
 <div class="container mt-5 justify-text">
   <div class="row">
