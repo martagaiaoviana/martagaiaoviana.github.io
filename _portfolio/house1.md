@@ -17,21 +17,60 @@ Regarding the architectural experience, the structures will value a serene and c
 
 
 
-![Image of a house]({{site.baseurl}}/assets/images/portfolio/2.png)
-![Image of a house](assets/images/portfolio/2.png)
+![Image of a house]({{site.baseurl}}/assets/images/portfolio/P1_01.png)
+![Image of a house](assets/images/portfolio/P1_01.png)
 
 
 <div class="row pt-3 align-items-end">
-    <div class="col-lg-6">
-        <img src="{{site.baseurl}}/assets/images/portfolio/2.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
-    </div>
-    <div class="col-lg-6">
-        <img src="{{site.baseurl}}/assets/images/portfolio/2.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
-    </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_01.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_01">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_02.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_02">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_03.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_03">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_04.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_04">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_05.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_05">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_06.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_06">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_07.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_07">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_08.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_08">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_09.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_09">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_10.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_10">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_11.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_11">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_12.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_12">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_13.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_13">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_14.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_14">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_15.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_15">
+  </div>
+  <div class="col-lg-6 mb-3">
+    <img src="{{site.baseurl}}/assets/images/portfolio/P1_16.png" class="img-fluid" style="object-fit: contain;" alt="Image P1_16">
+  </div>
 </div>
-
-
-
 
 
 
