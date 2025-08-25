@@ -4,11 +4,11 @@ subtitle: Honorable Mention in the International Competition TerraViva, 2023
 image: portfolio/2.png
 featured_home: true
 type: drawing
-date: 2023-04-08
-collaboration:
-  - José Pedro Cerdeira
-  - Luís Caleiro
+date: 1998-06-17
 ---
+
+### Collaboration  
+This project was developed in collaboration with **José Pedro Cerdeira** and **Luís Caleiro**
 
 The project of the three structures for the Riserva Naturale delle Torbiere del Sebino is an essay of the reunion between human action and natural spaces. 
 The reserve has an aura of pristine nature, although, it has been extensively modified by human activities, in this case, peat extraction. Despite the intense human activity in previous decades, the reserve has recovered some of its biodiversity and environment that characterized it, renewing itself with another expression.
@@ -30,6 +30,7 @@ Regarding the architectural experience, the structures will value a serene and c
         <img src="{{site.baseurl}}/assets/images/portfolio/2.png" class="img-fluid" style="object-fit: contain;" alt="me on the beach">
     </div>
 </div>
+
 
 
 
