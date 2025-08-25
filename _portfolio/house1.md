@@ -15,55 +15,26 @@ Regarding the architectural experience, the structures value a serene and coexis
 
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>
 
-<div class="row pt-3 align-items-end">
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_01.png" class="img-fluid" alt="Image P1_01.png">
+<!-- Bootstrap Carousel with Portfolio Images -->
+<div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% assign images = "P1_01.png,P1_02.png,P1_03.png,P1_04.png,P1_05.png,P1_06.png,P1_07.png,P1_08.png,P1_09.png,P1_10.png,P1_11.png,P1_12.png,P1_13.png,P1_14.png,P1_15.png,P1_16.png" | split: "," %}
+    {% for image in images %}
+    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+      <img src="{{ site.baseurl }}/assets/images/portfolio/{{ image }}.png" class="d-block w-100 img-fluid" alt="Image {{ image }}">
+    </div>
+    {% endfor %}
   </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_02.png" class="img-fluid" alt="Image P1_02.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_03.png" class="img-fluid" alt="Image P1_03.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_04.png" class="img-fluid" alt="Image P1_04.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_05.png" class="img-fluid" alt="Image P1_05.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_06.png" class="img-fluid" alt="Image P1_06.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_07.png" class="img-fluid" alt="Image P1_07.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_08.png" class="img-fluid" alt="Image P1_08.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_09.png" class="img-fluid" alt="Image P1_09.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_10.png" class="img-fluid" alt="Image P1_10.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_11.png" class="img-fluid" alt="Image P1_11.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_12.png" class="img-fluid" alt="Image P1_12.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_13.png" class="img-fluid" alt="Image P1_13.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_14.png" class="img-fluid" alt="Image P1_14.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_15.png" class="img-fluid" alt="Image P1_15.png">
-  </div>
-  <div class="col-lg-6 mb-3">
-    <img src="{{ site.baseurl }}/assets/images/portfolio/P1_16.png" class="img-fluid" alt="Image P1_16.png">
-  </div>
+
+  <!-- Carousel controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 
