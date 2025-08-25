@@ -1,12 +1,9 @@
 ---
-title: House by the beach
-subtitle: House built for Andreu by Marta in Valencia, Spain
-image: portfolio/5.png
-featured_home: false
+title: House by the beach House by the beach
+subtitle: House built for Andreu by Marta in Valencia, Spain 
+image: portfolio/3.png
+featured_home: true
 type: drawing
-date: 2005-01-01
+date: 2003-01-01
 published: false
 ---
-
-
-hello this is house one
