@@ -10,32 +10,33 @@ permalink: /about/
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
   .justify-text {
     text-align: justify;
+    text-justify: inter-word; /* melhora a justificação onde suportado */
+  }
+  /* Títulos com a mesma grafia do "Professional Experience" */
+  .section-title {
+    font-weight: 700;            /* fw-bold */
+    letter-spacing: .02em;
+    margin-bottom: .5rem;
   }
 </style>
 
-<!-- Image and About section -->
+<!-- Foto + Contact Information (mantém onde está) -->
 <div class="container-fluid px-0">
   <div class="row g-0 align-items-end">
-    <!-- Image aligned to left -->
+    <!-- Foto alinhada à esquerda -->
     <div class="col-lg-7 no-padding">
       <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
            class="img-fluid w-100"
            alt="Portrait of Marta on the beach">
     </div>
 
-    <!-- Text aligned to left, justified -->
+    <!-- Contact Information permanece na coluna à direita -->
     <div class="col-lg-5 d-flex flex-column justify-content-end">
       <div class="p-3 justify-text">
-        <h2 class="mb-0">About Me</h2>
+        <h2 class="section-title">Contact Information</h2>
         <p class="mb-0">
-          I am an architect and researcher focused on the political, social, and spatial dimensions of living.
-        </p>
-
-        <h2 class="mt-5 mb-0">Contact Information</h2>
-        <p class="mt-1">
           For professional inquiries, feel free to contact me at:
           <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
         </p>
@@ -44,20 +45,30 @@ permalink: /about/
   </div>
 </div>
 
-<!-- Abstract aligned to the left with the image -->
-<div class="container mt-5 justify-text">
-  <p>Marta Miranda Maçães Viana holds a Master’s degree in Architecture from the Faculty of Architecture of the University of Porto (FAUP), completed in 2022 with a final average grade of 17 out of 20. Her Master’s thesis, entitled “The Potential of the 1:1 Scale: Devices for Experimentation and Communication in Architecture”, was awarded a final grade of 19. The thesis explores full scale as a tool for experimentation, communication, and teaching in architecture, analyzing ephemeral devices—such as exhibitions, installations, and biennials—as both container and content.</p>
-
-  <p>Part of the research was developed within the project <em>Petites Folies: Other Landscapes over Douro</em>, integrated into the Porto Design Biennale 2021, curated by Alastair Fuad-Luke. This satellite project enabled the construction of six full-scale installations, exploring the relationship between architecture, design, and the city. Techniques of collective design, self-construction, and public space appropriation were employed, promoting critical reflection on civic participation and the role of ephemeral architecture in activating and communicating urban space.</p>
-
-  <p>In 2020/2021, Marta attended the Erasmus+ program at <em>Kungliga Tekniska Högskolan</em> (KTH) in Stockholm, as part of the Architecture and the Built Environment course. The Studio Making unit provided her first hands-on experience with full-scale construction—an impactful moment that later inspired the focus of her dissertation.</p>
-
-  <p>Marta co-authored a scientific article published in the <em>UOU journal</em> (Neiva, A., Viana, M., Gomes, J.N., 2021), based on the <em>Petites Folies</em> experience. The article investigates the 1:1 scale as a tool for education, communication, and intervention, exploring self-construction, collaborative design, and the relationship between architecture and society. These experiences reinforced her perspective on architecture as an interventionist and participatory practice with a meaningful impact on the urban environment.</p>
-
-  <p>In her professional career, she worked as an architect at Pedro Ferreira Architecture Studio (2022–2024) and Horizonte (2024–2025), participating in various design stages. Since 2024, she has been a full member of the Ordem dos Arquitetos and currently works independently. This practical experience sparked her interest in deepening her understanding of emerging issues in professional practice through research. She is currently enrolled in the PhD Program in Architecture (PDA) at the Faculty of Architecture of the University of Porto.</p>
-
-  <p>Beyond academic and professional work, Marta has remained actively involved in student associations, volunteering, and youth civic engagement. At FAUP, she was part of the Students’ Association, leading the sports division (2019–2020). She also joined the university volunteer group VOU (2022–2023) and took part in social programs such as Missão País (2021) and Just a Change (2018). This ongoing civic and political involvement has allowed her to stay closely connected to the structural challenges affecting her generation.</p>
+<!-- About Me (vem depois da fotografia, não em coluna) -->
+<div class="container-fluid mt-4">
+  <div class="px-3 px-md-4 px-lg-5">
+    <h2 class="section-title">About Me</h2>
+  </div>
 </div>
+
+<!-- Biografia a ocupar a largura da página e justificada -->
+<div class="container-fluid justify-text">
+  <div class="px-3 px-md-4 px-lg-5">
+    <p>Marta Miranda Maçães Viana holds a Master’s degree in Architecture from the Faculty of Architecture of the University of Porto (FAUP), completed in 2022 with a final average grade of 17 out of 20. Her Master’s thesis, entitled “The Potential of the 1:1 Scale: Devices for Experimentation and Communication in Architecture”, was awarded a final grade of 19. The thesis explores full scale as a tool for experimentation, communication, and teaching in architecture, analyzing ephemeral devices—such as exhibitions, installations, and biennials—as both container and content.</p>
+
+    <p>Part of the research was developed within the project <em>Petites Folies: Other Landscapes over Douro</em>, integrated into the Porto Design Biennale 2021, curated by Alastair Fuad-Luke. This satellite project enabled the construction of six full-scale installations, exploring the relationship between architecture, design, and the city. Techniques of collective design, self-construction, and public space appropriation were employed, promoting critical reflection on civic participation and the role of ephemeral architecture in activating and communicating urban space.</p>
+
+    <p>In 2020/2021, Marta attended the Erasmus+ program at <em>Kungliga Tekniska Högskolan</em> (KTH) in Stockholm, as part of the Architecture and the Built Environment course. The Studio Making unit provided her first hands-on experience with full-scale construction—an impactful moment that later inspired the focus of her dissertation.</p>
+
+    <p>Marta co-authored a scientific article published in the <em>UOU journal</em> (Neiva, A., Viana, M., Gomes, J.N., 2021), based on the <em>Petites Folies</em> experience. The article investigates the 1:1 scale as a tool for education, communication, and intervention, exploring self-construction, collaborative design, and the relationship between architecture and society. These experiences reinforced her perspective on architecture as an interventionist and participatory practice with a meaningful impact on the urban environment.</p>
+
+    <p>In her professional career, she worked as an architect at Pedro Ferreira Architecture Studio (2022–2024) and Horizonte (2024–2025), participating in various design stages. Since 2024, she has been a full member of the Ordem dos Arquitetos and currently works independently. This practical experience sparked her interest in deepening her understanding of emerging issues in professional practice through research. She is currently enrolled in the PhD Program in Architecture (PDA) at the Faculty of Architecture of the University of Porto.</p>
+
+    <p>Beyond academic and professional work, Marta has remained actively involved in student associations, volunteering, and youth civic engagement. At FAUP, she was part of the Students’ Association, leading the sports division (2019–2020). She also joined the university volunteer group VOU (2022–2023) and took part in social programs such as Missão País (2021) and Just a Change (2018). This ongoing civic and political involvement has allowed her to stay closely connected to the structural challenges affecting her generation.</p>
+  </div>
+</div>
+
 
 <section class="my-4">
   <h3 class="fw-bold">Professional Experience</h3>
