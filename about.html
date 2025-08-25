@@ -6,15 +6,24 @@ permalink: /about/
 ---
 
 <style>
-  .text-slide-container {
+  .text-slide-container, .zoom-image-container {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   }
 
-  .text-hover-container.visible .text-slide-container {
+  .visible .text-slide-container {
     opacity: 1;
     transform: translateY(0);
+  }
+
+  .zoom-image-container img {
+    transition: transform 1s ease;
+    transform: scale(1);
+  }
+
+  .visible.zoom-image-container img {
+    transform: scale(1.05);
   }
 </style>
 
@@ -26,24 +35,24 @@ permalink: /about/
           entry.target.classList.add("visible");
         }
       });
-    });
+    }, { threshold: 0.1 });
 
-    document.querySelectorAll('.text-hover-container').forEach(el => {
+    document.querySelectorAll('.text-hover-container, .zoom-image-container').forEach(el => {
       observer.observe(el);
     });
   });
 </script>
 
 <div class="row pt-3 align-items-end">
-  <!-- Coluna da imagem -->
-  <div class="col-lg-7 image-hover-container">
+  <!-- Coluna da imagem com efeito de zoom -->
+  <div class="col-lg-7 zoom-image-container">
     <img src="{{site.baseurl}}/assets/images/marta_on_the_beach.webp"
          class="img-fluid h-100"
          style="object-fit: contain;"
          alt="Portrait of Marta on the beach">
   </div>
 
-  <!-- Coluna do texto -->
+  <!-- Coluna do texto com efeito de fade/slide -->
   <div class="col-lg-5 d-flex flex-column justify-content-end text-hover-container">
     <div class="text-slide-container">
       <h2 class="mb-0">About Me</h2>
