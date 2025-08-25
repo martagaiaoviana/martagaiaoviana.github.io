@@ -18,7 +18,7 @@ Regarding the architectural experience, the structures value a serene and coexis
 <!-- Bootstrap Carousel with Portfolio Images -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
-    {% assign images = "P1_01.png,P1_02.png,P1_03.png,P1_04.png,P1_05.png,P1_06.png,P1_07.png,P1_08.png,P1_09.png,P1_10.png,P1_11.png,P1_12.png,P1_13.png,P1_14.png,P1_15.png,P1_16.png" | split: "," %}
+    {% assign images = "P1_01,P1_02,P1_03,P1_04,P1_05,P1_06,P1_07,P1_08,P1_09,P1_10,P1_11,P1_12,P1_13,P1_14,P1_15,P1_16" | split: "," %}
     {% for image in images %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
       <img src="{{ site.baseurl }}/assets/images/portfolio/{{ image }}.png" class="d-block w-100 img-fluid" alt="Image {{ image }}">
@@ -36,6 +36,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
