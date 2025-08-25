@@ -1,9 +1,8 @@
 <nav class="navbar navbar-expand-md navbar-light">
   <!-- <div class="container-fluid"> -->
     <a class="navbar-brand p-0 me-4" href="{{ '/' | relative_url }}">
-    {% if site.lightavatar or site.darkavatar %}
-    <img src="{{ site.lightavatar | relative_url }}" alt="light avatar" width="30" class="d-inline-block align-top m-0 light-avatar">
-    <img src="{{ site.darkavatar | relative_url }}" alt="dark avatar" width="30" class="d-inline-block align-top m-0 dark-avatar">
+    {% if site.logo %}
+    <img src="{{ site.logo | relative_url }}" alt="logo" width="150" class="d-inline-block align-top m-0 logo">
     {% endif %}
       <span class="navbar-name">{{ site.name }} </span>
     </a>
