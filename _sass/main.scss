@@ -139,3 +139,73 @@ pre.highlight {
 //     display: inline-block !important;
 //   }
 // }
+
+// CONTACT page styles
+ .contact-section {
+    margin-bottom: 3rem;
+  }
+  
+  .contact-info-item {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #212529;
+    transition: all 0.3s ease;
+    color: #212529;
+  }
+  
+  .contact-info-item:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+  }
+  
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 1rem;
+    fill: #212529;
+  }
+  
+  .form-control:focus {
+    border-color: #212529;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,0.1);
+  }
+  
+  .btn-primary {
+    background-color: #212529;
+    border-color: #212529;
+    padding: 0.75rem 2rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    letter-spacing: .02em;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #212529;
+    padding-bottom: 0.5rem;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .contact-info-item {
+      background-color: #343a40;
+      border-left-color: #f8f9fa;
+      color: #f8f9fa;
+    }
+    
+    .contact-info-item a {
+      color: #f8f9fa;
+    }
+    
+    .contact-icon {
+      fill: #f8f9fa;
+    }
+    
+    .section-title {
+      border-bottom-color: #f8f9fa;
+    }
+  }
