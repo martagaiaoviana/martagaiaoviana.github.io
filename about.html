@@ -14,37 +14,38 @@ permalink: /about/
   .justify-text {
     text-align: justify;
   }
-
-  /* Force text to align with photo edge */
-  .aligned-text {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: calc((100% - (100% * 7 / 12)) / 2); /* aligns with col-lg-7 */
-    padding-right: calc((100% - (100% * 7 / 12)) / 2);
-  }
-
-  @media (max-width: 991.98px) {
-    .aligned-text {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
-  }
 </style>
 
-<!-- Photo -->
+<!-- Image and About section -->
 <div class="container-fluid px-0">
-  <div class="row g-0">
+  <div class="row g-0 align-items-end">
+    <!-- Image aligned to left -->
     <div class="col-lg-7 no-padding">
       <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
            class="img-fluid w-100"
            alt="Portrait of Marta on the beach">
     </div>
+
+    <!-- Text aligned to left, justified -->
+    <div class="col-lg-5 d-flex flex-column justify-content-end">
+      <div class="p-3 justify-text">
+        <h2 class="mb-0">About Me</h2>
+        <p class="mb-0">
+          I am an architect and researcher focused on the political, social, and spatial dimensions of living.
+        </p>
+
+        <h2 class="mt-5 mb-0">Contact Information</h2>
+        <p class="mt-1">
+          For professional inquiries, feel free to contact me at:
+          <a href="mailto:{{ site.footer-links.email }}">{{ site.footer-links.email }}</a>
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- Bio text aligned with photo edges -->
-<div class="aligned-text mt-5 justify-text">
+<!-- Abstract aligned to the left with the image -->
+<div class="container mt-5 justify-text">
   <p>Marta Miranda Maçães Viana holds a Master’s degree in Architecture from the Faculty of Architecture of the University of Porto (FAUP), completed in 2022 with a final average grade of 17 out of 20. Her Master’s thesis, entitled “The Potential of the 1:1 Scale: Devices for Experimentation and Communication in Architecture”, was awarded a final grade of 19. The thesis explores full scale as a tool for experimentation, communication, and teaching in architecture, analyzing ephemeral devices—such as exhibitions, installations, and biennials—as both container and content.</p>
 
   <p>Part of the research was developed within the project <em>Petites Folies: Other Landscapes over Douro</em>, integrated into the Porto Design Biennale 2021, curated by Alastair Fuad-Luke. This satellite project enabled the construction of six full-scale installations, exploring the relationship between architecture, design, and the city. Techniques of collective design, self-construction, and public space appropriation were employed, promoting critical reflection on civic participation and the role of ephemeral architecture in activating and communicating urban space.</p>
@@ -57,7 +58,6 @@ permalink: /about/
 
   <p>Beyond academic and professional work, Marta has remained actively involved in student associations, volunteering, and youth civic engagement. At FAUP, she was part of the Students’ Association, leading the sports division (2019–2020). She also joined the university volunteer group VOU (2022–2023) and took part in social programs such as Missão País (2021) and Just a Change (2018). This ongoing civic and political involvement has allowed her to stay closely connected to the structural challenges affecting her generation.</p>
 </div>
-
 
 <section class="my-4">
   <h3 class="fw-bold">Professional Experience</h3>
