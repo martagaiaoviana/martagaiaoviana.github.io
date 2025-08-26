@@ -4,7 +4,7 @@ subtitle: "Honorable Mention in the International Competition TerraViva"
 image: portfolio/wildlife_pavilions/P1_Capa.png
 featured_home: true
 type: drawing
-date: 2023
+date: 2023-08-21
 published: true
 ---
 
@@ -55,6 +55,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     height: 3rem;
   }
 </style>
+
 
 
 
