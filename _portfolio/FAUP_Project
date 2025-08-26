@@ -1,7 +1,7 @@
 ---
 title: "FAUP Project"
 subtitle: "Fourth-year project – Student residence and cultural space, 2020"
-image: portfolio/FAUP_Project/P4_Capa.png
+image: portfolio/FAUP_Project/P4_Capa.jpg
 featured_home: true
 type: event
 date: 2020-07-28
@@ -21,7 +21,7 @@ published: true
 <!-- CAROUSEL -->
 <div id="petitesFoliesCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-indicators">
-    {% assign imgs = "P4_01,P4_01,P4_02,P4_03,P4_05,P4_06" | split: "," %}
+    {% assign imgs = "P4_01,P4_02,P4_03,P4_05,P4_06" | split: "," %}
     {% for img in imgs %}
       <button type="button"
               data-bs-target="#petitesFoliesCarousel"
@@ -52,6 +52,8 @@ published: true
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+
 
 
 
