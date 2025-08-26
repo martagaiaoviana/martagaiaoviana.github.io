@@ -4,7 +4,7 @@ subtitle: "Other Landscapes over Douro"
 image: portfolio/petites_folies/P2_Capa.png
 featured_home: true
 type: drawing
-date: 2021-08-20
+date: 2021-10-28
 published: true
 ---
 
@@ -61,6 +61,7 @@ published: true
     height: 2.5rem;
   }
 </style>
+
 
 
 
