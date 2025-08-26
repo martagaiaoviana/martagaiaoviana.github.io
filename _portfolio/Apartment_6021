@@ -13,7 +13,7 @@ published: true
   <div class="carousel-inner">
     
     <div class="carousel-item active">
-      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.png' | relative_url }}"
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.jpg' | relative_url }}"
            class="d-block w-100 img-fluid"
            alt="Portfolio image P3_01">
     </div>
@@ -25,7 +25,7 @@ published: true
     </div>
     
     <div class="carousel-item">
-      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.jpg' | relative_url }}"
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.png' | relative_url }}"
            class="d-block w-100 img-fluid"
            alt="Portfolio image P3_03">
     </div>
@@ -72,6 +72,7 @@ published: true
     In architectural terms, the proposal highlights flexibility and coexistence, promoting a sense of continuity between space, light, and natural elements. By emphasizing adaptability and connection with nature, the project affirms a contemporary, sensitive approach to inhabiting.
   </p>
 </div>
+
 
 
 
