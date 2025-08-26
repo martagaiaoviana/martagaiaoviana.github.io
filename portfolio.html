@@ -4,37 +4,52 @@ permalink: /portfolio/
 ---
 
 <style>
-  /* Hover effect: fade image lighter */
-  .portfolio img {
-    transition: all 0.3s ease-in-out;
-  }
-  .portfolio img:hover {
-    opacity: 0.6; /* makes it appear whiter/lighter */
+  /* Container for hover effect */
+  .portfolio .image-container {
+    position: relative;
+    overflow: hidden;
   }
 
-  /* Titles aligned with the image */
-  .portfolio .title {
+  /* Images fade lighter on hover */
+  .portfolio img {
+    transition: all 0.4s ease-in-out;
     display: block;
+    width: 100%;
+  }
+  .portfolio .image-container:hover img {
+    opacity: 0.4;
+  }
+
+  /* Title overlay */
+  .portfolio .title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000; /* black text */
+    font-size: 1.5rem; /* bigger */
     font-weight: 700;
-    margin-top: 0.5rem;
-    text-align: left;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* don't block clicks on image */
+  }
+  .portfolio .image-container:hover .title-overlay {
+    opacity: 1;
   }
 </style>
 
 <div class="portfolio">
-  <div class="row row-cols-1 row-cols-xl-2 g-4 align-items-end">
+  <div class="row row-cols-1 row-cols-xl-2 g-4">
     {% for post in site.portfolio %}
     <div class="col">
-      <div class="lc-block">
+      <div class="lc-block image-container">
         <a href="{{ post.url | relative_url }}">
           <img src="{{site.baseurl}}/assets/images/{{post.image}}" 
                class="img-fluid" 
-               style="object-fit: contain;" 
                alt="{{ post.title }}">
+          <span class="title-overlay">{{ post.title }}</span>
         </a>
-      </div>
-      <div class="lc-block">
-        <span class="title">{{ post.title }}</span>
       </div>
     </div>
     {% endfor %}
