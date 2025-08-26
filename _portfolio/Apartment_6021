@@ -22,7 +22,7 @@ published: true
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.jpg' | relative_url }}"
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.png' | relative_url }}"
            class="d-block w-100 img-fluid"
            alt="Portfolio image P3_01"
            loading="lazy">
@@ -36,7 +36,7 @@ published: true
     </div>
 
     <div class="carousel-item">
-      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.png' | relative_url }}"
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.jpg' | relative_url }}"
            class="d-block w-100 img-fluid"
            alt="Portfolio image P3_03"
            loading="lazy">
@@ -53,6 +53,7 @@ published: true
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
