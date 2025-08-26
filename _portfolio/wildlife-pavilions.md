@@ -20,7 +20,7 @@ Regarding the architectural experience, the structures value a serene and coexis
 
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>  
 
-**(2023)**
+**2023**
 
 <!-- Portfolio Carousel -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
@@ -55,6 +55,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     height: 3rem;
   }
 </style>
+
 
 
 
