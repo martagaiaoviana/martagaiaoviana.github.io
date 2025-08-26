@@ -1,10 +1,53 @@
 ---
-title: House by the beach House by the beach
-subtitle: House built for Andreu by Marta in Valencia, Spain 
-image: portfolio/3.png
+title: "Apartment 6021"
+subtitle: "Renovation of a house, 2025"
+image: portfolio/Apartment_6021/P3_Capa.png
 featured_home: true
-type: drawing
-date: 2025-08-26
+type: contest
+date: 2023-08-04
 published: true
 ---
+
+The project for the apartment situated in **Vila Nova de Gaia, Portugal** is an exercise in amplifying the relationship between domestic space and the surrounding natural context.  
+
+Although located in an urban environment, the apartment benefits from a courtyard that preserves traces of greenery. Building on this presence, the intervention seeks to enhance nature’s role as an active component of living, while rethinking the adaptability of contemporary housing.  
+
+The courtyard becomes a central element, guiding the design as both a source of light and a reference to the rhythms of nature. The flexible studio typology (T0) is oriented to take full advantage of its windows and solar orientation, fostering a spatial balance between openness and intimacy. Through carefully selected color accents, the project reinforces the integration of greenery inside the home, creating subtle transitions between indoor and outdoor.  
+
+In architectural terms, the proposal highlights flexibility and coexistence, promoting a sense of continuity between space, light, and natural elements. By emphasizing adaptability and connection with nature, the project affirms a contemporary, sensitive approach to inhabiting.  
+
+<!-- Portfolio Carousel -->
+<div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    {% assign images = "P3_01,P3_02,P3_03" | split: "," %}
+    {% for image in images %}
+    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/' | append: image | append: '.png' | relative_url }}"
+           class="d-block w-100 img-fluid"
+           alt="Portfolio image {{ image }}">
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Grey Carousel controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<style>
+  /* Grey arrows */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(50%) grayscale(100%);
+    width: 3rem;
+    height: 3rem;
+  }
+</style>
+
 
