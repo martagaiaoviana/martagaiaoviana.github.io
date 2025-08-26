@@ -1,7 +1,7 @@
 ---
 title: "Apartment 6021"
 subtitle: "Renovation of a house, 2025"
-image: portfolio/Apartment_6021/P3_Capa.png
+image: portfolio/Apartment_6021/P3_Capa.jpg
 featured_home: true
 type: contest
 date: 2023-08-04
@@ -19,14 +19,25 @@ In architectural terms, the proposal highlights flexibility and coexistence, pro
 <!-- Portfolio Carousel -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
-    {% assign images = "P3_01,P3_02,P3_03" | split: "," %}
-    {% for image in images %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ '/assets/images/portfolio/Apartment_6021/' | append: image | append: '.png' | relative_url }}"
+    
+    <div class="carousel-item active">
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.png' | relative_url }}"
            class="d-block w-100 img-fluid"
-           alt="Portfolio image {{ image }}">
+           alt="Portfolio image P3_01">
     </div>
-    {% endfor %}
+    
+    <div class="carousel-item">
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_02.png' | relative_url }}"
+           class="d-block w-100 img-fluid"
+           alt="Portfolio image P3_02">
+    </div>
+    
+    <div class="carousel-item">
+      <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.jpg' | relative_url }}"
+           class="d-block w-100 img-fluid"
+           alt="Portfolio image P3_03">
+    </div>
+    
   </div>
 
   <!-- Grey Carousel controls -->
@@ -49,5 +60,4 @@ In architectural terms, the proposal highlights flexibility and coexistence, pro
     height: 3rem;
   }
 </style>
-
 
