@@ -1,7 +1,7 @@
 ---
 title: "Petites Folies"
 subtitle: "Other Landscapes over Douro"
-image: portfolio/petites_folies/P2_14.png
+image: portfolio/petites_folies/P2_Capa.png
 featured_home: true
 type: drawing
 date: 2003-01-01
@@ -61,4 +61,5 @@ published: true
     height: 2.5rem;
   }
 </style>
+
 
