@@ -1,7 +1,7 @@
 ---
 title: Wildlife Pavilions
 subtitle: Honorable Mention in the International Competition TerraViva, 2023
-image: portfolio/wildlife_pavilions/P1_01.png
+image: portfolio/wildlife_pavilions/P1_Capa.png
 featured_home: true
 type: drawing
 date: 1998-06-17
@@ -52,6 +52,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     height: 3rem;
   }
 </style>
+
 
 
 
