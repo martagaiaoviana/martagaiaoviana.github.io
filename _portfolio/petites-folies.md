@@ -1,6 +1,6 @@
 ---
 title: "Petites Folies"
-subtitle: "Other Landscapes over Douro"
+subtitle: "Other Landscapes over Douro, 2021"
 image: portfolio/petites_folies/P2_Capa.png
 featured_home: true
 type: drawing
@@ -11,12 +11,11 @@ published: true
 <!-- TEXT ABOVE -->
 <div class="justify-text mb-4">
   <p>
-    Participated in the Biennale by covering and researching the event's impact. Contributed to the <em>Petites Folies Project</em>, which aimed to help people discover the city and its events through installations created by architects and designers.
+    Participated in the Biennale by documenting and researching the event’s impact. Contributed to the <em>Petites Folies Project</em>, which aimed to encourage people to explore the city and its events through installations designed by architects and designers.
   </p>
   <p>
-    Assisted in designing an installation at the Faculty of Architecture, encouraging visitors to walk and direct their attention to key infrastructures in the city, such as the Arrábida Bridge and the faculty building, drawing inspiration from the ideas of architect Álvaro Siza.
+    Assisted in the design of an installation at the Faculty of Architecture, encouraging visitors to walk and shift their attention toward key infrastructures in the city—such as the Arrábida Bridge and the faculty building—drawing inspiration from the work of architect Álvaro Siza.
   </p>
-  <p><strong>2021</strong></p>
 </div>
 
 <!-- CAROUSEL -->
@@ -61,6 +60,7 @@ published: true
     height: 2.5rem;
   }
 </style>
+
 
 
 
