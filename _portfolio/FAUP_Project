@@ -33,11 +33,12 @@ published: true
   </div>
 
   <div class="carousel-inner">
+    {% assign base = '/assets/images/portfolio/FAUP_Project/' %}
     {% for img in imgs %}
       <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{{ '/assets/images/portfolio/petites_folies/' | append: img | append: '.jpg' | relative_url }}"
+        <img src="{{ base | append: img | append: '.jpg' | relative_url }}"
              class="d-block w-100 img-fluid"
-             alt="Petites Folies {{ img }}">
+             alt="FAUP Project {{ img }}">
       </div>
     {% endfor %}
   </div>
@@ -52,12 +53,5 @@ published: true
   </button>
 </div>
 
-<style>
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(50%) grayscale(100%);
-    width: 2.5rem;
-    height: 2.5rem;
-  }
-</style>
+
 
