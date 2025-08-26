@@ -8,28 +8,42 @@ date: 2025-08-26
 published: true
 ---
 
+<!-- Project Text -->
+<div class="my-5">
+  <p>
+    In the apartment situated in <span class="fw-bold">Vila Nova de Gaia, Portugal</span>, our intention was to amplify the presence of nature already existing in the courtyard. From this approach, we envisioned a flexible studio (T0) that fully benefits from its windows and solar orientation.
+  </p>
+  <p>
+    The project emphasizes the integration of greenery into the living space, highlighted through carefully selected color accents, creating a balance between adaptability, light, and a sense of connection with nature.
+  </p>
+</div>
+
 <!-- Portfolio Carousel -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_01.jpg' | relative_url }}"
            class="d-block w-100 img-fluid"
-           alt="Portfolio image P3_01" loading="lazy">
+           alt="Portfolio image P3_01"
+           loading="lazy">
     </div>
 
     <div class="carousel-item">
       <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_02.png' | relative_url }}"
            class="d-block w-100 img-fluid"
-           alt="Portfolio image P3_02" loading="lazy">
+           alt="Portfolio image P3_02"
+           loading="lazy">
     </div>
 
     <div class="carousel-item">
       <img src="{{ '/assets/images/portfolio/Apartment_6021/P3_03.png' | relative_url }}"
            class="d-block w-100 img-fluid"
-           alt="Portfolio image P3_03" loading="lazy">
+           alt="Portfolio image P3_03"
+           loading="lazy">
     </div>
   </div>
 
+  <!-- Carousel controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -39,6 +53,7 @@ published: true
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
 
 
