@@ -1,10 +1,10 @@
 ---
 title: Wildlife Pavilions
-subtitle: Honorable Mention in the International Competition TerraViva, 2023
+subtitle: Honorable Mention in the International Competition TerraViva
 image: portfolio/wildlife_pavilions/P1_Capa.png
 featured_home: true
 type: drawing
-date: 1998-06-17
+date: 2023
 ---
 
 The project of the three structures for the Riserva Naturale delle Torbiere del Sebino is an essay of the reunion between human action and natural spaces.  
@@ -52,6 +52,7 @@ Regarding the architectural experience, the structures value a serene and coexis
     height: 3rem;
   }
 </style>
+
 
 
 
