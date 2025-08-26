@@ -4,7 +4,7 @@ subtitle: "Other Landscapes over Douro"
 image: portfolio/petites_folies/P2_Capa.png
 featured_home: true
 type: drawing
-date: 2003-01-01
+date: 2021
 published: true
 ---
 
@@ -16,7 +16,7 @@ published: true
   <p>
     Assisted in designing an installation at the Faculty of Architecture, encouraging visitors to walk and direct their attention to key infrastructures in the city, such as the Arrábida Bridge and the faculty building, drawing inspiration from the ideas of architect Álvaro Siza.
   </p>
-  <p><strong>(2021 – 2021)</strong></p>
+  <p><strong>(2021)</strong></p>
 </div>
 
 <!-- CAROUSEL -->
@@ -61,5 +61,6 @@ published: true
     height: 2.5rem;
   }
 </style>
+
 
 
