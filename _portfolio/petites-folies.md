@@ -3,7 +3,7 @@ title: "Petites Folies"
 subtitle: "Other Landscapes over Douro, 2021"
 image: portfolio/petites_folies/P2_Capa.png
 featured_home: true
-type: drawing
+type: event
 date: 2021-10-28
 published: true
 ---

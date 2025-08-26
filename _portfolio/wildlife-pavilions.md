@@ -3,7 +3,7 @@ title: "Wildlife Pavilions"
 subtitle: "Honorable Mention in the International Competition TerraViva, 2023"
 image: portfolio/wildlife_pavilions/P1_Capa.png
 featured_home: true
-type: drawing
+type: contest
 date: 2023-08-04
 published: true
 ---

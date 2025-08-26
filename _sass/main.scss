@@ -152,19 +152,19 @@ pre.highlight {
     margin-bottom: 3rem;
   }
   
-  .contact-info-item {
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    background-color: #f8f9fa;
-    border-left: 4px solid #212529;
-    transition: all 0.3s ease;
-    color: #212529;
-  }
+  // .contact-info-item {
+  //   margin-bottom: 1.5rem;
+  //   padding: 1.5rem;
+  //   background-color: #f8f9fa;
+  //   border-left: 4px solid #212529;
+  //   transition: all 0.3s ease;
+  //   color: #212529;
+  // }
   
-  .contact-info-item:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-  }
+  // .contact-info-item:hover {
+  //   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  //   transform: translateY(-2px);
+  // }
   
   .contact-icon {
     width: 24px;
@@ -216,3 +216,66 @@ pre.highlight {
       border-bottom-color: #f8f9fa;
     }
   }
+
+  .contact-info-item {
+    background-color: #fff;              /* always white */
+    border: 2px solid transparent;       /* invisible border initially */
+    border-radius: 8px;
+    transition: border-color 0.4s ease;  /* smooth border reveal */
+  }
+
+  .contact-info-item:hover {
+    border-color: #6c757d; /* grey outline appears */
+  }
+
+  .contact-info-item h5,
+  .contact-info-item a,
+  .contact-info-item span,
+  .contact-info-item i {
+    color: #333; /* dark grey default */
+    transition: color 0.3s ease;
+  }
+
+  .contact-info-item:hover h5,
+  .contact-info-item:hover a,
+  .contact-info-item:hover span,
+  .contact-info-item:hover i {
+    color: #000; /* turns solid black on hover */
+  }
+
+  // Portfolio style
+  /* Container for hover effect */
+  .portfolio .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Images fade lighter on hover */
+  .portfolio img {
+    transition: all 0.4s ease-in-out;
+    display: block;
+    width: 100%;
+  }
+  .portfolio .image-container:hover img {
+    opacity: 0.4;
+  }
+
+  /* Title overlay */
+  .portfolio .title-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000; /* black text */
+    font-size: 1.5rem; /* bigger */
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    pointer-events: none; /* don't block clicks on image */
+  }
+  .portfolio .image-container:hover .title-overlay {
+    opacity: 1;
+  }
+
+  

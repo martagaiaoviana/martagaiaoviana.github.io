@@ -3,41 +3,9 @@ layout: page
 permalink: /portfolio/
 ---
 
-<style>
-  /* Container for hover effect */
-  .portfolio .image-container {
-    position: relative;
-    overflow: hidden;
-  }
-
-  /* Images fade lighter on hover */
-  .portfolio img {
-    transition: all 0.4s ease-in-out;
-    display: block;
-    width: 100%;
-  }
-  .portfolio .image-container:hover img {
-    opacity: 0.4;
-  }
-
-  /* Title overlay */
-  .portfolio .title-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000; /* black text */
-    font-size: 1.5rem; /* bigger */
-    font-weight: 700;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.4s ease-in-out;
-    pointer-events: none; /* don't block clicks on image */
-  }
-  .portfolio .image-container:hover .title-overlay {
-    opacity: 1;
-  }
-</style>
+<!-- <style>
+The style is in the file: _sass/main.scss
+</style> -->
 
 <div class="portfolio">
   <div class="row row-cols-1 row-cols-xl-2 g-4">
