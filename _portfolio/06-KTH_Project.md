@@ -21,7 +21,7 @@ published: true
 <!-- Portfolio Images -->
 <div class="portfolio-images my-5">
   {% assign imgs = "P6_01,P6_02,P6_03,P6_04,P6_05,P6_06,P6_07,P6_08,P6_09,P6_10" | split: "," %}
-  {% assign base = '/assets/images/portfolio/kth_Project/' %}
+  {% assign base = '/assets/images/portfolio/KTH_Project/' %}
   {% for img in imgs %}
   <div class="mb-4">
     <img src="{{ base | append: img | append: '.jpg' | relative_url }}"
@@ -30,3 +30,5 @@ published: true
   </div>
   {% endfor %}
 </div>
+
+
