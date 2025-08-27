@@ -22,7 +22,7 @@ published: true
 <!-- Portfolio Carousel -->
 <div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
   <div class="carousel-inner">
-    {% assign images = "P5_01,P5_02,P5_03,P5_04,P5_05,P5_06,P5_07,P5_08,P5_09,P5_10,P5_11,P5_12" | split: "," %}
+    {% assign images = "P5_00,P5_02,P5_03,P5_04,P5_05,P5_06,P5_07,P5_08,P5_09,P5_10,P5_11,P5_12" | split: "," %}
     {% for image in images %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
       <img src="{{ '/assets/images/portfolio/Beach_House/' | append: image | append: '.jpg' | relative_url }}"
@@ -43,4 +43,5 @@ published: true
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
 
