@@ -20,15 +20,21 @@ published: true
 
 <!-- Portfolio Images -->
 <div class="portfolio-images my-5">
-  {% assign imgs = "P6_01,P6_02,P6_03,P6_04,P6_05,P6_06,P6_07,P6_08,P6_09,P6_10" | split: "," %}
-  {% assign base = '/assets/images/portfolio/KTH_Project/' %}
+  {% assign imgs = "P6_01.jpg|P6_02.jpg|P6_03.jpg|P6_04.jpg|P6_05.jpg|P6_06.jpg|P6_07.jpg|P6_08.jpg|P6_09.jpg|P6_10.jpg" | split: "|" %}
+  {% assign folder = '/assets/images/portfolio/KTH_Project/' %}
+
   {% for img in imgs %}
-  <div class="mb-4">
-    <img src="{{ base | append: img | append: '.jpg' | relative_url }}"
-         class="img-fluid w-100"
-         alt="KTH Project {{ img }}">
-  </div>
+    <div class="mb-4">
+      <img 
+        src="{{ folder | append: img | relative_url }}"
+        class="img-fluid w-100"
+        alt="KTH Project {{ img | split: '.' | first }}"
+        loading="lazy"
+        onerror="this.onerror=null; this.alt='Imagem não encontrada: {{ img }}';"
+      >
+    </div>
   {% endfor %}
 </div>
+
 
 
