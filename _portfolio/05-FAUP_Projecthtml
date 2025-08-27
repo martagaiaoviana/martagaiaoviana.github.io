@@ -18,39 +18,17 @@ published: true
   </p>
 </div>
 
-<!-- CAROUSEL -->
-<div id="petitesFoliesCarousel" class="carousel slide my-5" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    {% assign imgs = "P4_01,P4_02,P4_03,P4_05,P4_06" | split: "," %}
-    {% for img in imgs %}
-      <button type="button"
-              data-bs-target="#petitesFoliesCarousel"
-              data-bs-slide-to="{{ forloop.index0 }}"
-              class="{% if forloop.first %}active{% endif %}"
-              aria-current="{% if forloop.first %}true{% endif %}"
-              aria-label="Slide {{ forloop.index }}"></button>
-    {% endfor %}
+<!-- Portfolio Images -->
+<div class="portfolio-images my-5">
+  {% assign imgs = "P4_01,P4_02,P4_03,P4_05,P4_06" | split: "," %}
+  {% assign base = '/assets/images/portfolio/FAUP_Project/' %}
+  {% for img in imgs %}
+  <div class="mb-4">
+    <img src="{{ base | append: img | append: '.jpg' | relative_url }}"
+         class="img-fluid w-100"
+         alt="FAUP Project {{ img }}">
   </div>
-
-  <div class="carousel-inner">
-    {% assign base = '/assets/images/portfolio/FAUP_Project/' %}
-    {% for img in imgs %}
-      <div class="carousel-item {% if forloop.first %}active{% endif %}">
-        <img src="{{ base | append: img | append: '.jpg' | relative_url }}"
-             class="d-block w-100 img-fluid"
-             alt="FAUP Project {{ img }}">
-      </div>
-    {% endfor %}
-  </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#petitesFoliesCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#petitesFoliesCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  {% endfor %}
 </div>
 
 

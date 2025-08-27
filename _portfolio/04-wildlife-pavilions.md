@@ -1,7 +1,7 @@
 ---
 title: "Wildlife Pavilions"
 subtitle: "Honorable Mention in the International Competition TerraViva, 2023"
-image: portfolio/wildlife_pavilions/P1_Capa.png
+image: portfolio/wildlife_pavilions/P1_Capa.jpg
 featured_home: true
 type: contest
 date: 2023-08-04
@@ -21,39 +21,17 @@ Regarding the architectural experience, the structures value a serene and coexis
 <small>This project was developed in collaboration with <strong>José Pedro Cerdeira</strong> and <strong>Luís Caleiro</strong>.</small>  
 
 
-<!-- Portfolio Carousel -->
-<div id="portfolioCarousel" class="carousel slide my-5" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    {% assign images = "P1_000,P1_00A,P1_00B" | split: "," %}
-    {% for image in images %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      <img src="{{ '/assets/images/portfolio/wildlife_pavilions/' | append: image | append: '.png' | relative_url }}"
-           class="d-block w-100 img-fluid"
-           alt="Portfolio image {{ image }}">
-    </div>
-    {% endfor %}
+<!-- Portfolio Images -->
+<div class="portfolio-images my-5">
+  {% assign images = "P1_000,P1_00A,P1_00B" | split: "," %}
+  {% for image in images %}
+  <div class="mb-4">
+    <img src="{{ '/assets/images/portfolio/wildlife_pavilions/' | append: image | append: '.jpg' | relative_url }}"
+         class="img-fluid w-100"
+         alt="Portfolio image {{ image }}">
   </div>
-
-  <!-- Grey Carousel controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon custom-arrow" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon custom-arrow" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  {% endfor %}
 </div>
-
-<style>
-  /* Grey arrows */
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(50%) grayscale(100%);
-    width: 3rem;
-    height: 3rem;
-  }
-</style>
 
 
 
