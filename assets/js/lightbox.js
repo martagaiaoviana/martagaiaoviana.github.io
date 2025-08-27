@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     lightbox.className = 'image-lightbox';
     lightbox.innerHTML = `
         <span class="lightbox-close">&times;</span>
-        <span class="lightbox-nav lightbox-prev">&#8249;</span>
-        <span class="lightbox-nav lightbox-next">&#8250;</span>
+        <span class="lightbox-nav lightbox-prev"><i class="bi bi-chevron-left"></i></span>
+        <span class="lightbox-nav lightbox-next"><i class="bi bi-chevron-right"></i></span>
         <img class="lightbox-content" src="" alt="">
         <div class="lightbox-zoom-info">Scroll to zoom • Drag to pan • Double-click to reset</div>
     `;

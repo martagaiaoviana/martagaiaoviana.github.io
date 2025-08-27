@@ -346,12 +346,14 @@ pre.highlight {
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 40px;
     cursor: pointer;
     user-select: none;
     padding: 20px;
     transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .lightbox-prev {
