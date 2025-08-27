@@ -1,8 +1,9 @@
-version: '3'
 services:
   jekyll:
     image: jekyll/jekyll
     volumes:
       - .:/srv/jekyll
-    network_mode: host
-    command: jekyll serve --livereload
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    command: jekyll serve --host 0.0.0.0 --livereload
