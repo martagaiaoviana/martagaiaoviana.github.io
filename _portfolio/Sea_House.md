@@ -1,7 +1,7 @@
 ---
 title: "Sea House"
 subtitle: "Renovation of a house, 2024"
-image: portfolio/Beach_House/P5_Capa.jpg
+image: portfolio/Beach_House/P5_Capa1.jpg
 featured_home: true
 type: contest
 date: 2024-09-26
@@ -43,3 +43,4 @@ published: true
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
