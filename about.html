@@ -28,18 +28,6 @@ permalink: /about/
     transform: translateX(calc((100vw - 100%) / 2));
   }
 </style>
-
-<!-- PHOTO with scroll-based slide effect -->
-<div class="container-fluid px-0">
-  <div class="row g-0 align-items-end overflow-hidden">
-    <div class="col-lg-7 no-padding photo-slide">
-      <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
-           class="img-fluid w-100"
-           alt="Portrait of Marta on the beach">
-    </div>
-  </div>
-</div>
-
 <script>
   document.addEventListener("scroll", function() {
     const photo = document.querySelector(".photo-slide");
@@ -54,6 +42,18 @@ permalink: /about/
     }
   });
 </script>
+
+<!-- PHOTO with scroll-based slide effect -->
+<div class="container-fluid px-0">
+  <div class="row g-0 align-items-end overflow-hidden">
+    <div class="col-lg-7 no-padding photo-slide">
+      <img src="{{ '/assets/images/marta_on_the_beach.webp' | relative_url }}"
+           class="img-fluid w-100"
+           alt="Portrait of Marta on the beach">
+    </div>
+  </div>
+</div>
+
 
 <!-- ABOUT ME -->
 <section class="my-5">

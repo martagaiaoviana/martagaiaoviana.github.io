@@ -7,9 +7,11 @@ permalink: /portfolio/
 The style is in the file: _sass/main.scss
 </style> -->
 
+{% assign sorted_portfolio = site.portfolio | sort: 'path' %}
+
 <div class="portfolio">
   <div class="row row-cols-1 row-cols-xl-2 g-4">
-    {% for post in site.portfolio %}
+    {% for post in sorted_portfolio %}
     <div class="col">
       <div class="lc-block image-container">
         <a href="{{ post.url | relative_url }}">
