@@ -42,6 +42,11 @@ span.navbar-name {
   font-size: xx-large;
 }
 
+// // Navigation alignment fix: navigation items aligned touching the right border of the container
+// .navbar-nav.ms-auto .nav-item:last-child {
+//   margin-right: 0 !important;
+// }
+
 .archive-year {
   margin-top: 2rem;
   margin-bottom: 1rem;

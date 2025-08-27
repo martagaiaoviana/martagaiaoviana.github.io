@@ -2,7 +2,7 @@
   <!-- <div class="container-fluid"> -->
     <a class="navbar-brand p-0 me-4" href="{{ '/' | relative_url }}">
     {% if site.logo %}
-    <img src="{{ site.logo | relative_url }}" alt="logo" width="150" class="d-inline-block align-top m-0 logo">
+    <img src="{{ site.logo | relative_url }}" alt="logo" width="150" class="d-inline-block align-top m-0 logo pt-2">
     {% endif %}
       <span class="navbar-name">{{ site.name }} </span>
     </a>
@@ -17,7 +17,7 @@
           </li>
         {% endfor %}
       </ul>
-      <ul class="navbar-nav d-md-none">
+      <ul class="navbar-nav d-md-none pt-2">
         {% for item in site.data.navigation %}
           <li class="nav-item">
             <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="nav-link active" {% else %} class="nav-link" {% endif %}>{{ item.name }}</a>
