@@ -313,6 +313,17 @@ pre.highlight {
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
+    cursor: grab;
+    transition: transform 0.3s ease;
+    transform-origin: center center;
+  }
+
+  .lightbox-content.zoomed {
+    cursor: grabbing;
+  }
+
+  .lightbox-content.dragging {
+    cursor: grabbing;
   }
 
   .lightbox-close {
@@ -358,6 +369,25 @@ pre.highlight {
   .lightbox-nav.disabled {
     opacity: 0.3;
     cursor: not-allowed;
+  }
+
+  .lightbox-zoom-info {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 15px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .lightbox-zoom-info.visible {
+    opacity: 1;
   }
 
   
