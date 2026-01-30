@@ -18,7 +18,7 @@ tagline: Architecture Studio
 description: Architecture Studio 
 
 # The full URL to your site. Note: site.github.url will be used by default.
-url: https://mrt-arch.com
+# url: https://mrt-arch.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -53,7 +53,7 @@ defaults:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  email: info@mrt-arch.com
+  email: mviana@arq.up.pt
   facebook:
   github: 
   instagram: martagaiaoviana
